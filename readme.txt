@@ -11,5 +11,7 @@
         pip install -r requirements.txt //NOTE: This will take a while since pytorch, which is used in this project, is a very large library
     2. Open the notebook
     3. Select the virtual environment as the notebooks kernel
-    4. Execute all the cells in the notebook //NOTE: The cells at the bottom of the notebook that train the model take a long time to run. Be prepared to wait unless running this on a very large computer
-        IF: Torch cannot find a cuda device: 
+    4. Execute the cells in the notebook that are not for parameter search
+        //NOTE: The parameter search cells are at the bottom of the notebook that train the model take a long time to run. Be prepared to wait unless running this on a very large computer
+        IF: Torch cannot find a cuda device: The notebook can be run in CPU mode, but training is much slower
+    
